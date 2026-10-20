@@ -8,7 +8,7 @@ st.set_page_config(page_title="COSMOS · Explora lo extraordinario", page_icon="
 st.markdown('''<style>
 .stApp { background:#050810; }
 .block-container { padding:0 !important; max-width:100% !important; }
-header[data-testid="stHeader"] { background:transparent; height:0; }
+header[data-testid="stHeader"] { display:none !important; }
 [data-testid="stToolbar"] { visibility:hidden; }
 iframe { border:0; display:block; }
 </style>''', unsafe_allow_html=True)
